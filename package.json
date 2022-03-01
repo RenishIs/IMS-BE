@@ -1,0 +1,40 @@
+{
+  "name": "IMS-BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development&& node server.js",
+    "prod": "set NODE_ENV=production&& node server.js",
+    "stage": "set NODE_ENV=staging&& node server.js",
+    "nodemon": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^3.0.2",
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "date-and-time": "^2.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.7.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
